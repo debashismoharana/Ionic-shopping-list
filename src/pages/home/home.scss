@@ -1,3 +1,10 @@
 page-home {
-
+    .list-header-md{
+        border-top: none !important;
+        border-bottom: 0.55px solid #1d1a1a !important;
+    }
+    .item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner, .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+        border-bottom-color: none;
+    }
+    
 }
